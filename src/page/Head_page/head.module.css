@@ -1,0 +1,132 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.boxMain {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: rgb(40, 40, 40);
+    position: sticky;
+    top: 0px;
+}
+.boxNameSite{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+}
+.boxMenu{
+
+}
+.menuImg{
+    width: 25px;
+    height: 25px;
+}
+.butMenuOn{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 15px;
+    background-color: rgb(40, 40, 40); 
+}
+.butMenuOff{
+    display: none;
+}
+.mainLogo {
+    width: 130px;
+    height: 100px;
+}
+
+.nameSite {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+}
+
+.boxButNavig {
+    display: flex;
+    flex-direction: row;
+}
+
+.butNavig {
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.butNavig:hover {
+    box-shadow: 0 0 10px 4px rgba(205, 113, 255, 0.5);
+    background-color: rgb(64, 53, 130);
+    transition: 0.3s linear;
+    
+}
+
+.butNavigDropdown {
+    position: relative;
+    background-color: rgb(80, 80, 80);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.butNavigDropdown:hover{
+    box-shadow: 0 0 10px 4px rgba(205, 113, 255, 0.5);
+    background-color: rgb(64, 53, 130);
+    transition: 0.3s linear;
+}
+/* .textNavigDropdown{
+    
+} */
+.boxProducts {
+    display: none;
+    position: absolute;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.linksProduct {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(80, 80, 80);
+    color: black;
+   
+}
+
+.butNavigDropdown:hover .boxProducts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    border-radius: 5px;
+    text-decoration: none; 
+    
+
+}
+

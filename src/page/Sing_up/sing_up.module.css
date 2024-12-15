@@ -1,0 +1,58 @@
+.boxSing_up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10% 39% 15% 39%;
+    background: linear-gradient(45deg, #0b2772, #c053fa, #8d85ff, #6f6aff);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.boxName{
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    color: azure;
+    border-radius: 5px;
+}
+.boxTextSing_in{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 100%;
+}
+.liText{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+.pText{
+    margin-bottom: 5px;
+}
+.ButSing_up{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+   
+}
+.ButSing_upHome{
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.TextSing_up{
+    margin: 15px 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
